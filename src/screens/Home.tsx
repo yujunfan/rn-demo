@@ -7,6 +7,9 @@ const Home = () => {
     <View>
       <Text>Home</Text>
       <Button title="Login" onPress={() => navigation.navigate('Login')} />
+        <View   className="bg-red-500 h-28">
+            <Text>Home</Text>
+        </View>
     </View>
   );
 };  
